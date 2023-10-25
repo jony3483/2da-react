@@ -6,7 +6,7 @@ const Item =({producto}) => {
         <div className={styles.card}>
             <h4>{producto.title}</h4>
             <p>USD{producto.price}</p>
-            <Link to={`/product/${producto.id}`}>ver mas</Link>
+            <Link to={`/item/${producto.id}`}>ver mas</Link>
         </div>
     )
 }
